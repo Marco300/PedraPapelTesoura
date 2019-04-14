@@ -14,16 +14,17 @@
         <h1> Pedra Papel e Tesoura</h1> 
         </header>
 
+        
+
         <div class="score-board">
             <div id="user-label" class="badge">user</div>
             <div id="computer-label" class="badge">comp</div>
             <span id="user-score">0</span>:<span id="computer-score">0</span> 
         </div>
+    </br>
 
-        <div class="result">
-            <p>Papel Cobre a Pedra. Voce Ganhou!</p>
-        </div>
-
+<!--              ESCOLHAS DO USUARIO                        --> 
+<p id="action-message">Escolha um Movimento.</p>
         <div class="choices">
 
             <div class="choice" id="r">
@@ -37,10 +38,34 @@
             <div class="choice"id="s">
                 <img src="images/scissors.png" alt="">
             </div> 
-
         </div>
 
-        <p id="action-message">Escolha um Movimento.</p>
+<!--              RESULTADO                        -->
+       
+    <h1 id="action-message">Resultado: </h1>
+        
+    <div class="results">           
+            
+        <div class="resultUser" id="r">
+                <img src="" alt="">
+               
+            </div>
+
+            <div class=""id="action-message">
+               <h1>VS.</h1>
+            </div>
+
+            <div class="resultComp"id="s">
+                <img src="" alt="">
+                
+            </div> 
+        </div>
+
+      
+
+        
+
+       
         <script src="app.js" charset="utf-8"></script>
     </body>
 </html>

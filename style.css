@@ -45,14 +45,23 @@ header > h1{
     top:30px;
     right:-30px;
 }
-.result{
-   font-size: 40px;
-   color:white;    
-}
-.result > p{
+
+.results{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
     text-align: center;
-    font-weight: bold;
-    font-family: Asap, sans-serif;
+    
+}
+.resultUser {
+    
+    margin: 0 20px;
+    padding: 10px;
+}
+.resultComp {
+    
+    margin: 0 20px;
+    padding: 10px;
 }
 .choices{
     
